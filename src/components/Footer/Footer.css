@@ -1,0 +1,43 @@
+.svg-wave {
+ z-index: -1;
+}
+
+.logo-img {
+  width: 22rem;
+}
+
+.links-send {
+  color: #47d65a;
+  display: flex;
+  font-size: 1.7rem;
+}
+
+
+
+.content-display {
+  background-color: #f8f8f8;
+  width: 80%;
+  padding: 3rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-container {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #808080;
+}
+
+.links {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #47d65a;
+}
