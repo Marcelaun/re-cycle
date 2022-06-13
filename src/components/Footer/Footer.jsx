@@ -21,7 +21,13 @@ export function Footer() {
           <h1 className="footer-links-title">Nossas redes sociais.</h1>
 
           <div className="social-media-container">
-            <a className="links-send" href="https://web.whatsapp.com/send?phone=5531991151126">Whatsapp: <img src={WhatsappImg} alt="Whatsapp" /></a>
+            <div className="social-media-links">
+            <a className="social-media-links-send" href="https://web.whatsapp.com/send?phone=5531991151126" target="__blank" rel="noopener noreferrer" >
+            <h2 className="social-media-name">Whatsapp: &#40;31&#41;991151126</h2>
+            <img src={WhatsappImg} alt="Whatsapp" /> 
+            </a>
+
+            </div>
           </div>
         </div>
 
@@ -29,7 +35,11 @@ export function Footer() {
           <h1 className="footer-links-title">Visite-nos.</h1>
           
           <address className="endereco">
-
+            Rua Trazíbulo Jason, N° 1143 <br/>
+            Bairro São Pedro, <br/>
+            CEP: 39900-000, <br/>
+            Almenara - MG, 
+           <a target="__blank" rel="noopener noreferrer" className="links-send" href="https://goo.gl/maps/F77QJHY1CHsVVBuA7">Endereço google maps</a>
           </address>
         </div>
 

@@ -6,6 +6,24 @@
   width: 22rem;
 }
 
+.social-media-name {
+  color: #47d65a;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.endereco {
+  color: #47d65a;
+}
+
+.social-media-links-send {
+  color: #47d65a;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
 .links-send {
   color: #47d65a;
   display: flex;
@@ -41,3 +59,14 @@
   text-decoration: none;
   color: #47d65a;
 }
+
+@media screen and (max-width: 1030px) {
+  .content-display {
+    flex-wrap: wrap;
+    width: 95%;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+}
+
